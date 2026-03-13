@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: 0;
 }
 
 #header{
@@ -13,22 +14,15 @@
 h1{
     width: 350px;
     margin-left: 18%;
-    background-color: red;
+    background-color: gray;
     text-align: center;
+    position: relative;
+    top: 30px;
+    border-radius: 8px;
 }
 a {
    color: white;
    text-decoration: none;
-}
-
-.menu{
-    width: 20px;
-    display:flex;
-}
-
-nav ul li{
-    list-style: none;
-    padding-inline-start: 50px;
 }
 
 nav{
@@ -36,10 +30,27 @@ nav{
     margin-right: 30%;
     }
 
-/*#logo{
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+
+#logo{
     width: 50px;
     height: 50px;
-    margin-left: 15%;
     display: flex; 
-} */
+    position: relative;
+    left: 15%;
+    bottom: 12%;
+}
 
