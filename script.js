@@ -1,1 +1,0 @@
-const pagamento = 1
