@@ -19,5 +19,52 @@
             </ul>
           </nav>
    </div>
+     <div id="container">
+      <img src="./imagens/banner.png" height="300px" width="100%">
+      <img id="logo2" src="./imagens/logosevencomfundooficial.png">
+      <div id="information">
+        <h2>SEVEN BURGUER</h2>
+        <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Beira+Rio,+77" class="endereco" target="_blank"><span class="material-symbols-rounded">location_on</span> Avenida Beira Rio, 77</a>
+        <p class="pintar">Aberto até as 23:59 </p><p class="preto">|</p><p class="entrega">Entrega e Retirada </p>
+        <br>
+       
+<button class="button" onclick="abrirModal()"><span class="material-symbols-rounded">info</span>Mais informações</button>
+
+</div>
+</div>
+
+
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span onclick="fecharModal()" class="fechar">&times;</span>
+
+    <h2>Horário</h2>
+
+    <p>Domingo: 18:00 às 23:00</p>
+    <p>Terça-feira: 18:00 às 23:00</p>
+    <p>Quarta-feira: 18:00 às 23:00</p>
+    <p>Quinta-feira: 18:00 às 23:00</p>
+    <p>Sexta-feira: 18:00 às 23:59</p>
+    <p>Sábado: 18:00 às 23:59</p>
+
+  </div>
+</div>
+
+
+<script>
+function abrirModal(){
+document.getElementById("modal").style.display="block";
+}
+
+function fecharModal(){
+document.getElementById("modal").style.display="none";
+}
+</script>
+
+</body>
+</html>
+      </div>
+     </div>
   </body>
 </html>
